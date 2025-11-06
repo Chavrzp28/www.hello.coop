@@ -11,8 +11,6 @@ window.onload = async () => {
 }
 
 function interchangeAnimation() {
-    gsap.registerPlugin(MotionPathPlugin);
-
     const dictionary = {
         one: ["a"],
         two: ["b", "f", "n"],
