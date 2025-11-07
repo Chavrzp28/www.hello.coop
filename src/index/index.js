@@ -41,8 +41,8 @@ function interchangeAnimation() {
     // ⚙️ Controls
     const VELOCITY = 250;              // px per second (speed along path)
     const FLOW_INTERVAL = [0.8, 1.5];  // seconds between spawn attempts
-    const MAX_CONCURRENT = 2;          // max flows running at once
-    const CONCURRENT_DELAY = [0.25, 0.6]; // delay between concurrent starts (s)
+    const MAX_CONCURRENT = 3;          // max flows running at once
+    const CONCURRENT_DELAY = [0.25, 0.5]; // delay between concurrent starts (s)
 
     // Track state
     const activeElements = new Set();
